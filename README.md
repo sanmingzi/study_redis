@@ -1,5 +1,9 @@
 # study_redis
 
+- [hyper log log](./hyper_log_log/hyper_log_log.md)
+
+  利用概率统计的方式，使用极小的内存能够统计出很大的 uniq count。
+
 - concurrent lock 分布式锁
 
   在集群环境中，由于主从是异步同步的，如果主从数据不一致的话，分布式锁会出问题。
